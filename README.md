@@ -1,4 +1,4 @@
-# mobilenet
+# Mobilenet
 Mobilenet [1] for inference of multi-label classification. And a run exapmle on voc2007 [2] is provided. The result is exectly the same with the caffe version. The weight is trained on caffe with a pretrained mobilent on Imagenet [3], and splited into several binary files. The convolution and matrix multiplication operations are operated with 'for' loop for showing operational details, and the faster cblas version will be updated later.
 
 Examples of test_list.txt and test_labels.txt, and you can create you own files:
@@ -17,9 +17,9 @@ The network will print the two accuracy resutls (the mAP result is not provided)
 # Requirments:
 1. opencv
 
-# Note:
+# Notes:
 1. The code is tested on vs2015.      
-2. The 'for' loop operations of convolution and matrix mltiplication refer to [4], but the two-dimensional array in convolution is replaced with one-dimensional array.
+2. The 'for' loop operations of convolution and matrix mltiplication refer to [4], but the two-dimensional array in convolution is replaced by one-dimensional array.
 
 # References
 [1] Howard A G, Zhu M, Chen B, et al. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861, 2017.   
