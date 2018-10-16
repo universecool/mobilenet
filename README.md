@@ -3,14 +3,13 @@ Mobilenet [1] for reference of multi-label classification. And a run exapmle on 
 
 Examples of test_list.txt and test_labels.txt, and you can create you own files:
 test_list.txt  
-
-img1_name.jpg <\br>
-img2_name.jpg<\br>
+img1_name.jpg</br>
+img2_name.jpg</br>
 ...
 
-test_labels.txt<\br>
-0 0 0 0 0 1 0 0 0 0 0 0<\br>
-1 0 0 0 0 0 0 0 0 0 0 0<\br>
+test_labels.txt  
+0 0 0 0 0 1 0 0 0 0 0 0   
+1 0 0 0 0 0 0 0 0 0 0 0  
 ...
 
 The network will print the two accuracy resutls (the mAP result is not provided): one label correct and all labels correct. You can also modify utils.cpp to test one image.
@@ -19,11 +18,11 @@ The network will print the two accuracy resutls (the mAP result is not provided)
 1. opencv
 
 # Note:
-1. The code is tested on vs2015. <\br>
+1. The code is tested on vs2015.      
 2. The 'for' loop operations of convolution and matrix mltiplication refer to [4], but the two-dimensional array in convolution is replaced with one-dimensional array.
 
 # References
-[1] Howard A G, Zhu M, Chen B, et al. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861, 2017.<\br>
-[2] http://host.robots.ox.ac.uk/pascal/VOC/voc2007/<\br>
-[3] http://www.image-net.org/<\br>
-[4] https://blog.csdn.net/qiaofangjie/article/details/18042407<\br>
+[1] Howard A G, Zhu M, Chen B, et al. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861, 2017.   
+[2] http://host.robots.ox.ac.uk/pascal/VOC/voc2007/  
+[3] http://www.image-net.org/  
+[4] https://blog.csdn.net/qiaofangjie/article/details/18042407
