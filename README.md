@@ -1,7 +1,7 @@
 C++ implementation of inference of mobilenet
 
 # mobilenet
-Mobilenet [1] for test of multi-label classification. And a run exapmle on voc2007 [2] is provided. The result is exectly the same with the caffe version. The weight is trained on caffe with a pretrained mobilent on Imagenet [3], and splited into several binary files. The convolution and matrix multiplication operations are operated with 'for' loop for showing operational details, and the faster cblas version will be uploaded later.
+Mobilenet [1] for reference of multi-label classification. And a run exapmle on voc2007 [2] is provided. The result is exectly the same with the caffe version. The weight is trained on caffe with a pretrained mobilent on Imagenet [3], and splited into several binary files. The convolution and matrix multiplication operations are operated with 'for' loop for showing operational details, and the faster cblas version will be uploaded later.
 
 Examples of test_list.txt and test_labels.txt, and you can create you own files:
 test_list.txt
