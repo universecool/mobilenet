@@ -19,7 +19,7 @@ The network will print the two accuracy resutls (the mAP result is not provided)
 
 # Notes:
 1. The code is tested on vs2015.      
-2. The 'for' loop operations of convolution and matrix mltiplication refer to [4], but the two-dimensional array in convolution is replaced by one-dimensional array.
+2. The 'for' loop operations of convolution and matrix multiplication refer to [4], but the two-dimensional array in convolution operation is replaced by one-dimensional array.
 
 # References
 [1] Howard A G, Zhu M, Chen B, et al. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861, 2017.   
